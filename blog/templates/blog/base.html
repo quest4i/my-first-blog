@@ -25,12 +25,16 @@
           integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
           crossorigin="anonymous">
 
-    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
 </head>
 
 
-<body>
+{# begin body ######################################################################}
+
+<body class="container">
 
 <div class="page-header">
     {% if user.is_authenticated %}
@@ -49,6 +53,9 @@
     </div>
 </div>
 
+
+
+{# end body ######################################################################}
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"

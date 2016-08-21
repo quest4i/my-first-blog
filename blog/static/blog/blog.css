@@ -28,10 +28,10 @@ h1, h2, h3, h4 {
 }
 
 .post-form textarea, .post-form input {
-    width: 100px;
+    width: 500px;
 }
 
-.top-menbu, .top-menu:hover, .top-menu:visited {
+.top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     flaot: right;
     font-size: 26pt;
